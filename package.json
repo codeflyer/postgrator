@@ -33,7 +33,6 @@
   },
   "dependencies": {
     "glob": "^7.1.6",
-    "msnodesqlv8": "^0.8.6",
     "newline": "0.0.3"
   },
   "repository": {
@@ -42,6 +41,9 @@
   },
   "main": "postgrator",
   "types": "postgrator.d.ts",
+  "peerDependencies": {
+    "msnodesqlv8": "^0.8.6"
+  },
   "devDependencies": {
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.14",
